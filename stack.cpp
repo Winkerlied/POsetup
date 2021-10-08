@@ -1,7 +1,7 @@
-typedef struct stack tstack
+typedef struct stack
 {
   
-};
+}tstack;
 tstack *init(void)
 {
 
