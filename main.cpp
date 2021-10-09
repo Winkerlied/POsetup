@@ -6,7 +6,7 @@ int main()
   tstack* one = init();
   tstack* two = init();
   if(one!=two)
-    printf("[0]\tStacks are different\m");
+    printf("[0]\tStacks are different\n");
   else
     printf("[0]\tone and two point at the same adress. Shouldn't be that way.\n");
   { // operations on empty stack
